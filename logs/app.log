@@ -1,0 +1,55 @@
+2025-08-21 14:34:46.944 [main] INFO  net.project.loggers.LoggersApplication - Starting LoggersApplication using Java 17.0.7 with PID 15648 (D:\dev\github\log4j2\target\classes started by Mohan in D:\dev\github\log4j2)
+2025-08-21 14:34:46.951 [main] INFO  net.project.loggers.LoggersApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-21 14:34:47.509 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-21 14:34:47.518 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-21 14:34:47.519 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-21 14:34:47.520 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-21 14:34:47.558 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-21 14:34:47.558 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 575 ms
+2025-08-21 14:34:47.795 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-21 14:34:47.817 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-08-21 14:34:47.824 [main] INFO  net.project.loggers.LoggersApplication - Started LoggersApplication in 1.139 seconds (process running for 2.048)
+2025-08-21 14:35:57.055 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-21 14:35:57.055 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-21 14:35:57.056 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] ERROR net.project.loggers.controller.UserController - Controller: This is an ERROR level message
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] WARN  net.project.loggers.controller.UserController - Controller: This is a WARN level message
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] INFO  net.project.loggers.controller.UserController - Controller: This is an INFO level message
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] ERROR net.project.loggers.service.UserService - Service: This is an ERROR level message
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] WARN  net.project.loggers.service.UserService - Service: This is a WARN level message
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] INFO  net.project.loggers.service.UserService - Service: This is an INFO level message
+2025-08-21 14:35:57.077 [http-nio-8080-exec-1] DEBUG net.project.loggers.service.UserService - Service: This is a DEBUG level message
+2025-08-21 14:35:57.078 [http-nio-8080-exec-1] ERROR net.project.loggers.repository.UserRepository - Repository: This is an ERROR level message
+2025-08-21 14:35:57.078 [http-nio-8080-exec-1] WARN  net.project.loggers.repository.UserRepository - Repository: This is a WARN level message
+2025-08-21 14:35:57.078 [http-nio-8080-exec-1] INFO  net.project.loggers.repository.UserRepository - Repository: This is an INFO level message
+2025-08-21 14:37:57.970 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-08-21 14:37:57.972 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-21 14:37:57.973 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-08-21 14:37:58.100 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-08-21 14:37:58.101 [RMI TCP Connection(5)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-08-21 14:38:03.395 [main] INFO  net.project.loggers.LoggersApplication - Starting LoggersApplication using Java 17.0.7 with PID 22228 (D:\dev\github\log4j2\target\classes started by Mohan in D:\dev\github\log4j2)
+2025-08-21 14:38:03.402 [main] INFO  net.project.loggers.LoggersApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-21 14:38:03.948 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-21 14:38:03.956 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-21 14:38:03.958 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-21 14:38:03.958 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-21 14:38:04.000 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-21 14:38:04.001 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+2025-08-21 14:38:04.237 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-21 14:38:04.255 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-08-21 14:38:04.261 [main] INFO  net.project.loggers.LoggersApplication - Started LoggersApplication in 1.123 seconds (process running for 1.899)
+2025-08-21 14:38:11.072 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-21 14:38:11.072 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-21 14:38:11.073 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-21 14:38:11.094 [http-nio-8080-exec-1] ERROR net.project.loggers.controller.UserController - Controller: This is an ERROR level message
+2025-08-21 14:38:11.094 [http-nio-8080-exec-1] WARN  net.project.loggers.controller.UserController - Controller: This is a WARN level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] INFO  net.project.loggers.controller.UserController - Controller: This is an INFO level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] DEBUG net.project.loggers.controller.UserController - Controller: This is a DEBUG level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] TRACE net.project.loggers.controller.UserController - Controller: This is a TRACE level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] ERROR net.project.loggers.service.UserService - Service: This is an ERROR level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] WARN  net.project.loggers.service.UserService - Service: This is a WARN level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] INFO  net.project.loggers.service.UserService - Service: This is an INFO level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] DEBUG net.project.loggers.service.UserService - Service: This is a DEBUG level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] ERROR net.project.loggers.repository.UserRepository - Repository: This is an ERROR level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] WARN  net.project.loggers.repository.UserRepository - Repository: This is a WARN level message
+2025-08-21 14:38:11.095 [http-nio-8080-exec-1] INFO  net.project.loggers.repository.UserRepository - Repository: This is an INFO level message
