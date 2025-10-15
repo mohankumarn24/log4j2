@@ -12,6 +12,10 @@ public class LoggersApplication {
 
 }
 
+/**
+ * spring boot default logging is logback logging (slf4j + logback)
+ */
+
 /*
 
 
